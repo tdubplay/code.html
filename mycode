@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PGPC Chronicle
+        </title>
+        <style>
+            .head {
+                background-color: darkblue;
+                border-radius: 4px;
+                padding: 20px;
+                margin: 10px;
+            }
+            .navbar {
+                display: flex;
+                margin: 10px;
+                background-color: rgb(5, 5, 167);
+                padding: 10px 20px;
+                border-radius: 4px;
+                top: 0;
+            }
+            .navhori {
+                display: flex;
+                list-style: none;
+            }
+            .navhori li {
+                margin: 0 10px;
+            }
+            .navhori a {
+                color:  white;
+                text-decoration: none;
+                padding: 8px 12px;
+                background-color: #130483;
+                border-radius: 4px;
+            }
+            .content{
+                padding: 10px;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+            }
+            .tt {
+                color: rgb(154, 151, 151);
+            }
+            .backgroundd {
+                background-color: #3823d7;
+            }
+            .program {
+                background-color: #130483;
+                border-radius: 4px;
+                color:  white;
+            }
+            .sidebar {
+                display: flex;
+                background-color: #130483;
+                padding-right: 15px;
+                border-radius: 10px;
+            }
+            .concon {
+                background-color: #130483;
+                padding: 15px;
+                border-radius: 10px;
+            }
+            .horizontal-list {
+                display: flex;
+                list-style: none;
+                gap: 16px;
+                padding: 0;
+                margin: 0;
+            }
+            .horizontal-list li {
+                flex: 1 0 200px;
+            }
+            .horizontal-list .card {
+                flex: 0 0 250px;
+                background: #082489;
+                padding: 15px;
+                border-radius: 8px;
+            }
+            .horizontal-list .card img {
+                width: 100%;
+                height: auto;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="backgroundd">
+            <div class="head">
+                <h3>PGPC Chronicle</h3>
+                <p>An Official communication channel of PGPC.</p>
+            </div>
+            <nav class="navbar">
+                <ul class="navhori">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#department">Department</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+            <main class="content">
+                <article class="concon">
+                    <h1>Orientation Schedule Released</h1>
+                        <img src="https://images.squarespace-cdn.com/content/v1/55f23404e4b0f00150b5c785/1453582275073-TK0AX5EV5XDVUOD20X5Z/IMG_1758.JPG?format=1500w" alt="Picture here" width="900" height="400">
+                        <p class="tt">Welcome activities kick off the main auditoriom.</p>
+                    <p>Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature vNature Nature Nature vvvvvNature Nature Nature vNature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature vvvvvvvvvvvvvvNature vvvvvNature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature Nature .</p>
+                    <button class="program">View Program</button>
+                    <section>
+                        <h2>PGPC VISION, MISSION, AND CORE VALUES</h2>
+                        <ul class="horizontal-list">
+                            <li>
+                                <article class="card">
+                                    <img src="https://images.squarespace-cdn.com/content/v1/55f23404e4b0f00150b5c785/1453582275073-TK0AX5EV5XDVUOD20X5Z/IMG_1758.JPG?format=1500w" alt="Picture here" width="300" height="150">
+                                    <h3>The vision of padre garcia polytechnic college (PGPC) shall be:</h3>
+                                    <p> PGPC is a premier higher learning institution producing globally competitive and excellent professionals and leaders instrumental to community development and nation-building. </p>
+                                    <button class="program">View More</button>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="card">
+                                    <img src="https://images.squarespace-cdn.com/content/v1/55f23404e4b0f00150b5c785/1453582275073-TK0AX5EV5XDVUOD20X5Z/IMG_1758.JPG?format=1500w" alt="Picture here" width="300" height="150">
+                                    <h3>The vision of padre garcia polytechnic college (PGPC) shall be:</h3>
+                                    <p> PGPC is a premier higher learning institution producing globally competitive and excellent professionals and leaders instrumental to community development and nation-building. </p>
+                                    <button class="program">View More</button>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="card">
+                                    <img src="https://images.squarespace-cdn.com/content/v1/55f23404e4b0f00150b5c785/1453582275073-TK0AX5EV5XDVUOD20X5Z/IMG_1758.JPG?format=1500w" alt="Picture here" width="300" height="150">
+                                    <h3>The vision of padre garcia polytechnic college (PGPC) shall be:</h3>
+                                    <p> P - Professional Development
+                                        G - God-centered Community
+                                        P - Progressive Community
+                                        C - Commitment to Excellence. </p>
+                                    <button class="program">View More</button>
+                                </article>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+                <aside class="sidebar">      
+                    <ul>
+                        <h3>Resorces</h3>
+                        <li><a>Campus map</a></li>
+                        <li><a>Asccessibility services</a></li>
+                        <li><a>Student handbook</a></li>
+                    </ul>
+                </aside>
+            </main>
+        </div>
+    </body>
+    <footer>
+        <p>© 2025 Campus Chronicle.</p>
+    </footer>
+</html>
